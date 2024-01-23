@@ -1,0 +1,40 @@
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 600px;
+    text-align: center;
+}
+
+.header-text {
+    border: 1px solid aqua;
+    background-color: aqua;
+    font-size: larger;
+}
+
+.head {
+    background-color: yellow;
+    font-size: larger;
+}
+
+.number {
+    border: 1px solid black;
+    width: 55px;
+    height: 30px;
+    background-color: rgb(228, 221, 221);
+    padding: 10px;
+}
+
+.name {
+    background-color: red;
+    color: white;
+}
+
+.work {
+    background-color: red;
+    color: white;
+}
+
+.salary {
+    background-color: green;
+    color: white;
+}

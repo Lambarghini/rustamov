@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 100px 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container a {
+    color: #000;
+    font-weight: 900;
+    padding-left: 25px;
+    font-size: x-large;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    text-shadow: 0px 7px 4px rgba(55, 26, 171, 0.60);
+}
+
+main {
+    padding: 50px 150px;
+}
+
+.boxes {
+    gap: 100px;
+    display: flex;
+}
+
+.boxes img{
+    width: 500px;
+    height: 550px;
+}
+
+.borders {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.series1 {
+    gap: 100px;
+    display: flex;
+}
+
+.border1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 8px 24px 0px #2FC63C;
+}
+
+.border2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.20);
+}
+
+.border3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 1.95px 1.95px 2.6px 0px rgba(0, 0, 0, 0.15);
+}
+
+.series2 {
+    gap: 100px;
+    display: flex;
+}
+
+.border4 {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+}
+
+.border5 {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.67);
+}
+
+.border6 {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 3px 8px 0px #F00;   
+}
+
+.series3 {
+    gap: 100px;
+    display: flex
+}
+
+.border7 {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 8px 24px 0px rgba(0, 127, 253, 0.92);
+}
+
+.border8 {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 7px 36px 0px rgba(100, 100, 111, 0.66);
+}
+
+.border9 {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 1.95px 1.95px 2.6px 0px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #171717;
+}
+
+header {
+    padding: 49px 64px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h3 {
+    color: var(--Text-1, #FAFAF9);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+nav {
+    gap: 20px;
+    display: flex;
+}
+
+nav a {
+    color: var(--Text-1, #FAFAF9);
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+#workout {
+    display: flex;
+    padding: 248px 141px;
+    justify-content: space-between;
+}
+
+#workout h1 {
+    width: 883px;
+    height: 340px;
+    color: var(--Text-1, #FAFAF9);
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 172px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 170px; /* 98.837% */
+    letter-spacing: -2px;
+    text-transform: uppercase;
+}
+
+#workout p {
+    margin-top: 46px;
+    width: 560px;
+    color: var(--Text-2, rgba(239, 237, 232, 0.65));
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.5px;
+}
+
+.content button {
+    margin-top: 50px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; 
+    letter-spacing: 1px;
+    border-radius: 10px;
+    background: #E6533C;
+    display: inline-flex;
+    padding: 24px 25px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.content button:active {
+    color: #E6533C;
+    background-color: #171717;
+}
+
+#workout .runner {
+    position: absolute;
+    bottom: -400px;
+    left: 970px;
+}
+
+.border1 {
+    padding: 26px 29px;
+    width: 180px;
+    height: 110px;
+    border-radius: 12px;
+    background: #EF8964;    
+}
+
+.border1 p {
+    color: var(--Text-1, #FAFAF9);
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; 
+    letter-spacing: -5px;
+    text-transform: uppercase;
+}
+
+.border1 h5 {
+    color: var(--Text-2, rgba(239, 237, 232, 0.65));
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}

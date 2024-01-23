@@ -1,0 +1,33 @@
+body {
+    background-color: rgba(189, 184, 184, 0.685);
+}
+
+.container {
+    border: 1px solid white;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.container2 {
+    margin: 15px;
+    border: 1px solid white;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container3 {
+    border: 1px solid white;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: larger;
+}

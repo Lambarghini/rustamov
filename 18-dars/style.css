@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+header {
+    background: #00445b;
+    background-blend-mode: multiply;
+    height: 100vh;
+    padding: 30px 100px;
+    background-image: url(./images/Rectangle\ 6.png);
+    background-size: cover;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+}
+
+nav {
+    gap: 30px;
+    display: flex;
+}
+
+header .content {
+    margin-top: 180px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1 {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.86px;
+}
+
+header p {
+    width: 620px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+header button {
+    margin-top: 40px;
+    width: 234px;
+    height: 65px;
+    flex-shrink: 0;
+    border: 1px solid #FDB44B;
+    background: #FDB44B;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+header button:active {
+    color: #FDB44B;
+    background-color: transparent;
+}
+
+#cards {
+    padding: 150px 100px;
+}
+
+#cards .content {
+    color: #00445B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.66px;
+    text-transform: capitalize;
+}
+
+#cards .series-1 {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.series-1 img {    
+    margin-top: 30px;
+}
+
+.series-1 h4 {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.series-1 p {
+    margin-top: 10px;
+    color: #646464;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+#cards .borders {
+    gap: 40px;
+    margin-top: 66px;
+    display: flex;
+    justify-content: center;
+}
+
+.borders .border {
+    width: 100px;
+    height: 5px;
+    flex-shrink: 0;
+    background: #646464;
+}
+
+#cards .series-2 {
+    margin-top: 400px;
+}
+
+#cards .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.series-2 .card-4 {
+    margin-top: 30px;
+    width: 369px;
+    height: 393px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.13);
+} 
+
+.card-4 h3 {
+    margin: 37px 0 0 37px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.card-4 p {
+    margin-top: 10px;
+    margin-left: 37px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; 
+    letter-spacing: 0.28px;
+    width: 295px;
+    height: 33px;
+    flex-shrink: 0;
+}
+
+.card-4 button {
+    margin-top: 30px;
+    margin-left: 37px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    width: 295px;
+    height: 46px;
+    flex-shrink: 0;
+    border: 1px solid #FDB44B;
+    background: #FDB44B;
+    text-transform: uppercase;
+}
+
+.card-4 button:active {
+    color: #FDB44B  ;
+    background-color: #FFF;
+}
+

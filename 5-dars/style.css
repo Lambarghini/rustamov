@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.nine {
+    background-color: red;
+}
+
+.twelve {
+    background-color: green;
+}
+
+.sixteen {
+    background-color: yellow;
+}

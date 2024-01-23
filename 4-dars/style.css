@@ -1,0 +1,36 @@
+.box {
+    background-color: black;
+    border: 1px solid black;
+    padding-top: 30px;
+    border-radius: 10px;
+    width: 200px;
+    height: 500px;
+}
+
+.red {
+    border: 1px solid red;
+    background-color: red;
+    margin: auto;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.yellow {
+    border: 1px solid yellow;
+    background-color: yellow;
+    margin: 10px auto;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.green {
+    border: 1px solid green;
+    background-color: green;
+    margin: auto;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}

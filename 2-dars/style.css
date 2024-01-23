@@ -1,0 +1,19 @@
+.title {
+    background-color: rgb(13, 71, 13);
+    border: 3px solid red;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+}
+
+.img {
+    margin-left: 710px;
+    width: 100px;
+}
+
+.text {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: large;
+}

@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+header {
+    padding: 55px 167px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container a {
+    color: #9E9AA8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: black;
+}
+
+nav {
+    gap: 29px;
+    display: flex;
+    margin-right: 500px;
+    align-items: center;
+}
+
+.registration a {
+    color: #9E9AA8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.registration a:hover {
+    color: black;
+}
+
+.registration button {
+    width: 105px;
+    height: 40px;
+    border-radius: 28px;
+    background: #2BD0D0;
+    border: 1px solid #2BD0D0;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.registration button:active {
+    color: #2BD0D0;
+    background-color: white;
+}
+
+.registration {
+    gap: 37px;
+    display: flex;
+    align-items: center;
+}
+
+#index {
+    height: 650px;
+    display: flex;
+    padding: 55px 0 0 167px;
+    justify-content: space-between;
+}
+
+.content h1 {
+    width: 565px;
+    color: #34313D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px; 
+    letter-spacing: -2px;
+}
+
+.content p {
+    width: 540px;
+    color: #9E9AA8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; 
+    letter-spacing: 0.15px;
+}
+
+.content button {
+    margin-top: 52px;
+    color: #FFF;
+    border: 1px solid #2BD0D0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 197px;
+    height: 56px;
+    border-radius: 28px;
+    background: #2BD0D0;        
+}
+
+.content button:active {
+    color: #2BD0D0;
+    background-color: white;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-img {
+    position: absolute;
+    background-image: url(./images/Path\ 2.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 1110px;
+    height: 168px;
+}
+
+#main input {
+    padding: 0 32px;
+    width: 769px;
+    height: 64px;
+    border-radius: 10px;
+    background: #FFF;
+    color: #34313D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; 
+    letter-spacing: 0.15px;
+}
+
+#main button {
+    margin-left: 65px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #2BD0D0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 188px;
+    height: 64px;
+    border-radius: 10px;
+    background: #2BD0D0;
+}
+
+#main button:active {
+    color: #2BD0D0;
+    background-color: #FFF;
+}
+
+#footer {
+    padding: 100px 20px;
+    height: 280px;
+    background-color: rgba(95, 41, 4, 0.9);
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#footer h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+    letter-spacing: -1px;
+}
+
+#footer button {
+    margin-top: 13px;
+    color: #FFF;
+    border: 1px solid #2BD0D0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 197px;
+    height: 56px;
+    border-radius: 28px;
+    background: #2BD0D0;        
+}
+
+#footer button:active {
+    color: #2BD0D0;
+    background-color: white;
+}
+
+footer {
+    padding: 68px 200px;
+    background-color: #232127;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.25px;
+}
+
+.footer-container i {
+    color: white;
+    font-size: 20px;
+}

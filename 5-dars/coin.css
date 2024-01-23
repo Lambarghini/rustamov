@@ -1,0 +1,18 @@
+table {
+    margin: auto;
+    text-align: center;
+    width: 600px;
+    height: 150px;
+}
+
+th {
+    padding: 5px;
+}
+
+.ball {
+    background-color: yellow;
+}
+
+.fourth {
+    background-color: rgb(62, 62, 224);
+}
